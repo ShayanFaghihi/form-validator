@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Sign Up Now!</h1>
+        <form class="form">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="full-name" id="full-name" placeholder="First and Last Name" required><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-5555" required><br>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="example@website.com" required><br>
+
+            <label for="website">Website URL</label>
+            <input type="url" name="webiste" id="webiste" placeholder="http://website.com" required><br>
+
+            <label for="passweord">Password</label>
+            <input type="password" name="password" id="passweord" placeholder="Create Password (Min. 8 characters)" required><br>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required><br>
+            
+            <button type="submit" class="btn">Register</button>
+        </form>
+        <div class="information-box">Don't Hesitate</div>
+    </div>
+</body>
+</html>
