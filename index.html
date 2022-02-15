@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -22,17 +23,17 @@
             <input type="email" name="email" id="email" placeholder="example@website.com" required><br>
 
             <label for="website">Website URL</label>
-            <input type="url" name="webiste" id="webiste" placeholder="http://website.com" required><br>
+            <input type="url" name="website" id="website" placeholder="http://website.com" required><br>
 
-            <label for="passweord">Password</label>
-            <input type="password" name="password" id="passweord" placeholder="Create Password (Min. 8 characters)" required><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Create Password (Min. 8 characters)" required><br>
 
             <label for="confirm-password">Confirm Password</label>
             <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required><br>
             
             <button type="submit" class="btn">Register</button>
         </form>
-        <div class="information-box">Don't Hesitate</div>
+        <div class="information-box" id="formMessage">Don't Hesitate</div>
     </div>
 </body>
 </html>

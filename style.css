@@ -16,6 +16,9 @@
 
     /* Font Colors */
     --clr-title : #333;
+
+    /* Other Color */
+    --clr-valid-outline: #23DC3D;
 }
 
 body {
@@ -60,6 +63,10 @@ body {
     font-family: inherit;
     box-shadow: inset 5px 4px 5px rgba(236, 236, 236, 0.562),
                  -2px 4px 5px rgba(236, 236, 236, 0.562);
+}
+
+.form input.valid {
+    outline: 2px solid var(--clr-valid-outline);
 }
 
 .form label {
