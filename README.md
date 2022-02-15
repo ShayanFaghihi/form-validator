@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component solution
+# Form Validation using Pure JavaScript
 
 This is a self challenge for how we can validate form inputs using pure JavaScript
 
